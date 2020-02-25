@@ -1,15 +1,4 @@
-def get_limit(results, start, limit):
-    
-    start = int(start)
-    limit = int(limit)
-    count = len(results)
-    
-    offset = (start - 1) * limit
-    pagermax = limit
-    data = results[offset: offset+limit]
-    
-    
-    return data
+
 
 
 
